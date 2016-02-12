@@ -1,15 +1,12 @@
 ---
 ---
 
-/* Imports base scss files for the site */
-@import
-  "base/reset",
-  "base/vars",
-  "base/layout"
-;
+
 
 /* Imports individual book cover scss files */
 @import
+  "books/vars",
+  "books/layout",
   "books/underground",
   "books/ficciones"
 ;
