@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/css?family=Elsie);
+@import url(https://fonts.googleapis.com/css?family=Diplomata+SC);
+
+#second {
+  background-color: lightblue;
+}
+
+#ficciones {
+  background-color: rgba(0, 0, 0, .85);
+  color: $ficciones-color;
+
+  .left-side {
+    border-right: 2px solid $ficciones-color;
+    border-bottom: 2px solid $ficciones-color;
+    width: 8%;
+    height: 80%;
+    position: absolute;
+  }
+  .right-side {
+    border-left: 2px solid $ficciones-color;
+    border-bottom: 2px solid $ficciones-color;
+    right: 0;
+    width: 8%;
+    height: 80%;
+    position: absolute;
+  }
+  .title {
+    border-bottom: 2px solid $ficciones-color;
+    border-left: 2px solid $ficciones-color;
+    border-right: 2px solid $ficciones-color;
+    font-family: 'Elsie', cursive;
+    font-size: 3.5rem;
+    height: 80%;
+    left: 50%;
+    letter-spacing: .4rem;
+    position: relative;
+    transform: translateX(-50%);
+    width: 80%;
+
+
+    h1 {
+      left: 1rem;
+      position: relative;
+      right: 1rem;
+      top: 3rem;
+      transform: rotate(-5deg);
+      z-index: 2;
+    }
+    img {
+      position: absolute;
+      top: 30%;
+      width: 100%;
+      filter: blur(.5);
+    }
+  }
+
+  .author {
+    border-top: 2px solid $ficciones-color;
+    position: relative;
+    top: .3rem;
+    font-size: 1rem;
+
+    .first {
+      position: relative;
+      top: 2.05rem;
+      left: .5rem;
+    }
+    .middle {
+      position: relative;
+      top: 2rem;
+      left: 1.4rem;
+    }
+
+    .last {
+      font-family: 'Diplomata SC', cursive;
+      font-size: 2.8rem;
+      font-stretch: expanded;
+      left: 4rem;
+      position: absolute;
+      top: 2rem;
+    }
+  }
+
+}
