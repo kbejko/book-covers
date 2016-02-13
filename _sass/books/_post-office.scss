@@ -1,0 +1,321 @@
+@import url(https://fonts.googleapis.com/css?family=Hind+Siliguri:700);
+
+#third {
+  background: saddlebrown;
+}
+#post-office {
+  background: lightblue;
+  color: #DC0909;
+  font-family: 'Hind Siliguri', sans-serif;
+  z-index: 3;
+
+  .ripped {
+    height: 90%;
+    z-index: 5;
+
+    ul {
+      padding: 0;
+      margin: 0;
+      position: absolute;
+      width: 100%;
+      z-index: 4;
+    }
+    .line {
+      list-style: none;
+      position: absolute;
+      background-color: #16166F;
+    }
+    #first-line {
+      left: 80%;
+      height: 58px;
+      width: 16px;
+      transform: skew(-55deg, 5deg);
+    }
+    #second-line{
+      left: 74%;
+      height: 34px;
+      width: 16px;
+      top: 24px;
+      transform: rotate(38deg);
+      border-top-left-radius: 50%;
+    }
+    #third-line{
+      left: 73%;
+      height: 25px;
+      width: 10px;
+      top: 50px;
+      transform: rotate(-12deg);
+    }
+    #fourth-line{
+      left: 67%;
+      height: 103px;
+      width: 20px;
+      top: 42px;
+      transform: skew(-26deg, -51deg);
+    }
+    #fifth-line{
+      left: 63%;
+      height: 86px;
+      width: 22px;
+      top: 113px;
+      transform: rotate(-8deg);
+      border-top-right-radius: 30%;
+    }
+    #sixth-line{
+      left: 55%;
+      height: 83px;
+      width: 15px;
+      top: 174px;
+      transform: rotate(54deg);
+    }
+    #seventh-line{
+      left: 49%;
+      height: 79px;
+      width: 14px;
+      top: 227px;
+      transform: rotate(-17deg);
+      border-top-left-radius: 30%;
+    }
+    #eigth-line{
+      left: 47%;
+      height: 79px;
+      width: 15px;
+      top: 236px;
+      transform: skewX(18deg);
+    }
+    #nineth-line{
+      left: 42%;
+      height: 142px;
+      width: 28px;
+      top: 326px;
+      transform: skew(-22deg, -77deg);
+    }
+    #tenth-line{
+      left: 46%;
+      height: 106px;
+      width: 10px;
+      top: 299px;
+      transform: skew(-31deg, -20deg);
+    }
+    #eleventh-line{
+      left: 29%;
+      height: 65px;
+      width: 20px;
+      top: 490px;
+      transform: skew(-41deg, -63deg);
+    }
+    #twelveth-line {
+      left: 40%;
+      height: 106px;
+      width: 20px;
+      top: 380px;
+      transform: skew(-21deg, -79deg);
+    }
+  }
+
+  .envelope {
+    $envelope-color: #F0EBA5;
+    opacity: .7;
+    z-index: 2;
+
+    .envelope-left {
+      background-color: $envelope-color;
+      position: absolute;
+      left: 69%;
+      height: 98px;
+      top: 88px;
+      width: 47px;
+      transform: skew(23deg, -62deg);
+    }
+    .envelope-bottom {
+      background: $envelope-color;
+      position: absolute;
+      left: 52%;
+      height: 168px;
+      top: 216px;
+      width: 71px;
+      transform: skew(5deg, -29deg)
+    }
+    .envelope-fill-middle {
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-top: 251px solid transparent;
+      border-right: 89px solid $envelope-color;
+      top: 303px;
+      left: 33%;
+    }
+    .envelope-fill-middle-bottom {
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-top: 378px solid transparent;
+      border-right: 292px solid $envelope-color;
+      top: 197px;
+      left: 22%;
+    }
+    .envelope-fill-bottom {
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-bottom: 216px solid transparent;
+      border-top: 47px solid transparent;
+      border-right: 80px solid $envelope-color;
+      top: 0;
+      left: 75%;
+    }
+    .envelope-top {
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-bottom: 362px solid transparent;
+      border-top: 185px solid transparent;
+      border-right: 145px solid $envelope-color;
+      top: 30px;
+      left: 58%;
+    }
+  }
+
+  .title {
+    position: absolute;
+    top: 11%;
+    left: 10%;
+    z-index: 5;
+    margin: 0 auto;
+    width: 80%;
+
+    h1 {
+      text-transform: uppercase;
+      font-size: 3.4rem;
+      text-align: center;
+    }
+  }
+  .subtitle {
+    position: absolute;
+    top: 22%;
+    left: 65%;
+    width: 105px;
+    h3 {
+      word-spacing: 2rem;
+      font-size: 1.5rem;
+      text-align: center;
+      line-height: 1.6rem;
+    }
+  }
+
+  .round-stamp {
+    color: #16166F;
+    position: absolute;
+    left: 75%;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #16166F;
+    border-radius: 50%;
+    z-index: 10;
+
+    span {
+      font-size: .4rem;
+      position: absolute;
+      transform-origin: top center;
+    }
+    .char1 {
+      left: 51%;
+      top: 2%;
+      transform: rotate(10deg);
+    }
+    .char2 {
+      left: 58%;
+      top: 4%;
+      transform: rotate(16deg);
+    }
+    .char3 {
+      left: 71%;
+      top: 10%;
+      transform: rotate(28deg);
+    }
+    .char4 {
+      left: 84%;
+      top: 18%;
+      transform: rotate(42deg);
+    }
+    .char5 {
+      left: 94%;
+      top: 36%;
+      transform: rotate(74deg);
+    }
+    .char6 {
+      left: 98%;
+      top: 44%;
+      transform: rotate(84deg);
+    }
+    .char7 {
+      left: 96%;
+      top: 53%;
+      transform: rotate(94deg);
+    }
+    .char8 {
+      left: 92%;
+      top: 64%;
+      transform: rotate(114deg);
+    }
+    .char9 {
+      left: 92%;
+      top: 68%;
+      transform: rotate(115deg);
+    }
+    .char10 {
+      left: 80%;
+      top: 85%;
+      transform: rotate(142deg);
+    }
+    .char11 {
+      left: 71%;
+      top: 90%;
+      transform: rotate(144deg);
+    }
+    .date {
+      top: 48%;
+      left: 55%;
+      transform: rotate(90deg);
+    }
+    .time {
+      top: 52%;
+      left: 23%;
+      transform: rotate(77deg);
+    }
+    .zip {
+      top: 52%;
+      left: -3%;
+      transform: rotate(107deg);
+    }
+  }
+
+  .address {
+    position: absolute;
+    left: 41%;
+    top: 49%;
+    width: 114px;
+    transform: rotate(90deg);
+
+    h5 {
+      color: #16166F;
+      font-size: .8rem;
+      font-family: monospace;
+    }
+  }
+
+  .stamp {
+    position: absolute;
+    top: 80%;
+    left: 81%;
+    width: 50px;
+    height: 90px;
+    background-color: #16166F;
+    opacity: .3;
+
+    .line {
+      border-left: 2px solid #16166F;
+    }
+  }
+}
