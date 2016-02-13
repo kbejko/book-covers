@@ -307,15 +307,98 @@
 
   .stamp {
     position: absolute;
-    top: 80%;
-    left: 81%;
-    width: 50px;
-    height: 90px;
-    background-color: #16166F;
-    opacity: .3;
+    top: 82%;
+    left: 76%;
+    width: 67px;
+    height: 57px;
+    border: 1px dotted #16166F;
 
-    .line {
-      border-left: 2px solid #16166F;
+    .flag {
+      background-color: #32467F;
+      position: absolute;
+      top: 9%;
+      left: 8%;
+      width: 57px;
+      height: 47px;
+
+      .blank {
+        background-color: #C0C2D2;
+        position: absolute;
+        top: 10%;
+        left: 15%;
+        width: 17px;
+        height: 32px;
+        border-right: 6px dotted #DC0909;
+        border-radius: 30%;
+      }
+    }
+  }
+
+  .line {
+    height: 125px;
+    position: absolute;
+    top: 74%;
+    left: 80%;
+
+    #line1 {
+      position: relative;
+      left: 0;
+    }
+    #line2 {
+      position: relative;
+      left: 7px;
+    }
+    #line3 {
+      position: relative;
+      left: 14px;
+    }
+    #line4 {
+      position: relative;
+      left: 21px;
+    }
+    #line5 {
+      position: relative;
+      left: 28px;
+    }
+
+    .line1 {
+      position: absolute;
+      height: 26px;
+      width: 10px;
+      border-right: 3px solid #16166F;
+      border-radius: 0 21px 23px 0;
+    }
+    .line2 {
+      top: 21px;
+      position: absolute;
+      height: 27px;
+      width: 10px;
+      border-left: 3px solid #16166F;
+      border-radius: 21px 0 0 21px;
+    }
+    .line3 {
+      position: absolute;
+      top: 44px;
+      height: 25px;
+      width: 10px;
+      border-right: 3px solid #16166F;
+      border-radius: 0 21px 23px 0;
+    }
+    .line4 {
+      top: 65px;
+      position: absolute;
+      height: 30px;
+      width: 10px;
+      border-left: 3px solid #16166F;
+      border-radius: 21px 0 0 21px;
+    }
+    .line5 {
+      position: absolute;
+      top: 91px;
+      height: 29px;
+      width: 10px;
+      border-right: 3px solid #16166F;
+      border-radius: 0 21px 23px 0;
     }
   }
 }

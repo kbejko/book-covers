@@ -1,28 +1,27 @@
-.square {
-    position: absolute;
-    border: ($book-width * .005) solid $black-line;
-    width: $book-width * .02;
-    height: $book-width * .02;
-    z-index: 20;
-    transform: rotate(45deg);
-    background-color: $white-line;
-}
-.left-square {
-  border-right: 0;
-  border-top: 0;
-}
-.right-square {
-  border-left: 0;
-  border-bottom: 0;
-}
-
-
 #first {
   background: crimson;
 }
 #underground {
   background: beige;
   font-family: "Wire One", sans-serif;
+
+  .square {
+      position: absolute;
+      border: ($book-width * .005) solid $black-line;
+      width: $book-width * .02;
+      height: $book-width * .02;
+      z-index: 20;
+      transform: rotate(45deg);
+      background-color: $white-line;
+  }
+  .left-square {
+    border-right: 0;
+    border-top: 0;
+  }
+  .right-square {
+    border-left: 0;
+    border-bottom: 0;
+  }
 
   .title,
   .subtitle,
@@ -97,9 +96,6 @@
     }
   }
 
-  @media only screen and (min-width: 700px) {
-
-  }
   .metro {
     position: relative;
     width: 100%;
