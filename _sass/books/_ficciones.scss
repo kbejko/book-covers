@@ -37,6 +37,9 @@
     transform: translateX(-50%);
     width: 80%;
 
+    .jlb {
+      filter: blur(3px);
+    }
 
     h1 {
       left: 1rem;
@@ -46,11 +49,11 @@
       transform: rotate(-5deg);
       z-index: 2;
     }
-    img {
+    .jlb {
       position: absolute;
-      top: 30%;
+      top: 31%;
       width: 100%;
-      filter: blur(.5);
+      -webkit-filter: contrast(4) hue-rotate(185deg) saturate(6);
     }
   }
 
