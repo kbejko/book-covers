@@ -11,7 +11,8 @@
       width: $book-width * .02;
       height: $book-width * .02;
       z-index: 20;
-      transform: rotate(45deg);
+      -webkit-transform: rotate(45deg);
+              transform: rotate(45deg);
       background-color: $white-line;
   }
   .left-square {
@@ -27,14 +28,20 @@
   .subtitle,
   .author {
     position: absolute;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
     width: 100%;
 
     h1 h3 {
-      align-self: center;
+      -webkit-align-self: center;
+          -ms-flex-item-align: center;
+              align-self: center;
       position: relative;
       left: 50%;
-      transform: translateX(-50%);
+      -webkit-transform: translateX(-50%);
+              transform: translateX(-50%);
       font-size: 2em;
       letter-spacing: .13em;
     }
@@ -44,7 +51,8 @@
     position: absolute;
     top: 45%;
     left: 50%;
-    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
     width: $book-width * .40;
     height: 8%;
     background-color: black;
@@ -53,10 +61,13 @@
     z-index: 6;
 
       h1 {
-        align-self: center;
+        -webkit-align-self: center;
+            -ms-flex-item-align: center;
+                align-self: center;
         position: relative;
         left: 50%;
-        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+                transform: translateX(-50%);
         font-size: 2rem;
         letter-spacing: .13em;
       }
@@ -70,10 +81,13 @@
 
       h3 {
         font-family: sans-serif;
-        align-self: center;
+        -webkit-align-self: center;
+            -ms-flex-item-align: center;
+                align-self: center;
         position: relative;
         left: 51%;
-        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+                transform: translateX(-50%);
         font-size: .7em;
         letter-spacing: .17em;
         font-weight: lighter;
@@ -86,10 +100,13 @@
     background-color: lime;
 
     h1 {
-      align-self: center;
+      -webkit-align-self: center;
+          -ms-flex-item-align: center;
+              align-self: center;
       position: relative;
       left: 52%;
-      transform: translateX(-50%);
+      -webkit-transform: translateX(-50%);
+              transform: translateX(-50%);
       font-size: 1.8em;
       letter-spacing: .60em;
       text-transform: uppercase;
@@ -117,12 +134,16 @@
     }
 
     .bend {
-      transform: rotate(50deg);
-      transform-origin: 0 ($book-width * .0075);
+      -webkit-transform: rotate(50deg);
+              transform: rotate(50deg);
+      -webkit-transform-origin: 0 ($book-width * .0075);
+              transform-origin: 0 ($book-width * .0075);
     }
     .bend-neg {
-      transform: rotate(-50deg);
-      transform-origin: 0 ($book-width * -.0175);
+      -webkit-transform: rotate(-50deg);
+              transform: rotate(-50deg);
+      -webkit-transform-origin: 0 ($book-width * -.0175);
+              transform-origin: 0 ($book-width * -.0175);
     }
     .route {
       width: $book-width * .01;
@@ -260,7 +281,8 @@
       .square-left,
       .square-right {
         @extend .square;
-        transform: rotate(135deg);
+        -webkit-transform: rotate(135deg);
+                transform: rotate(135deg);
       }
       .square-right{
         top: 49%;
@@ -305,7 +327,8 @@
         left: -29%;
         height: 5%;
         border-radius: 0;
-        transform: rotate(-44deg);
+        -webkit-transform: rotate(-44deg);
+                transform: rotate(-44deg);
       }
     }
 
@@ -575,7 +598,8 @@
         top: 34%;
         height: 4%;
         border-radius: 0;
-        transform: rotate(-42deg);
+        -webkit-transform: rotate(-42deg);
+                transform: rotate(-42deg);
       }
       #violet12 {
         left: 11%;

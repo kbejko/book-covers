@@ -34,11 +34,13 @@
     left: 50%;
     letter-spacing: .4rem;
     position: relative;
-    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
     width: 80%;
 
     .jlb {
-      filter: blur(3px);
+      -webkit-filter: blur(3px);
+              filter: blur(3px);
     }
 
     h1 {
@@ -46,7 +48,8 @@
       position: relative;
       right: 1rem;
       top: 3rem;
-      transform: rotate(-5deg);
+      -webkit-transform: rotate(-5deg);
+              transform: rotate(-5deg);
       z-index: 2;
     }
     .jlb {

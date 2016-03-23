@@ -29,14 +29,16 @@
       left: 80%;
       height: 58px;
       width: 16px;
-      transform: skew(-55deg, 5deg);
+      -webkit-transform: skew(-55deg, 5deg);
+              transform: skew(-55deg, 5deg);
     }
     #second-line{
       left: 74%;
       height: 34px;
       width: 16px;
       top: 24px;
-      transform: rotate(38deg);
+      -webkit-transform: rotate(38deg);
+              transform: rotate(38deg);
       border-top-left-radius: 50%;
     }
     #third-line{
@@ -44,21 +46,24 @@
       height: 25px;
       width: 10px;
       top: 50px;
-      transform: rotate(-12deg);
+      -webkit-transform: rotate(-12deg);
+              transform: rotate(-12deg);
     }
     #fourth-line{
       left: 67%;
       height: 103px;
       width: 20px;
       top: 42px;
-      transform: skew(-26deg, -51deg);
+      -webkit-transform: skew(-26deg, -51deg);
+              transform: skew(-26deg, -51deg);
     }
     #fifth-line{
       left: 63%;
       height: 86px;
       width: 22px;
       top: 113px;
-      transform: rotate(-8deg);
+      -webkit-transform: rotate(-8deg);
+              transform: rotate(-8deg);
       border-top-right-radius: 30%;
     }
     #sixth-line{
@@ -66,14 +71,16 @@
       height: 83px;
       width: 15px;
       top: 174px;
-      transform: rotate(54deg);
+      -webkit-transform: rotate(54deg);
+              transform: rotate(54deg);
     }
     #seventh-line{
       left: 49%;
       height: 79px;
       width: 14px;
       top: 227px;
-      transform: rotate(-17deg);
+      -webkit-transform: rotate(-17deg);
+              transform: rotate(-17deg);
       border-top-left-radius: 30%;
     }
     #eigth-line{
@@ -81,35 +88,40 @@
       height: 79px;
       width: 15px;
       top: 236px;
-      transform: skewX(18deg);
+      -webkit-transform: skewX(18deg);
+              transform: skewX(18deg);
     }
     #nineth-line{
       left: 42%;
       height: 142px;
       width: 28px;
       top: 326px;
-      transform: skew(-22deg, -77deg);
+      -webkit-transform: skew(-22deg, -77deg);
+              transform: skew(-22deg, -77deg);
     }
     #tenth-line{
       left: 46%;
       height: 106px;
       width: 10px;
       top: 299px;
-      transform: skew(-31deg, -20deg);
+      -webkit-transform: skew(-31deg, -20deg);
+              transform: skew(-31deg, -20deg);
     }
     #eleventh-line{
       left: 29%;
       height: 65px;
       width: 20px;
       top: 490px;
-      transform: skew(-41deg, -63deg);
+      -webkit-transform: skew(-41deg, -63deg);
+              transform: skew(-41deg, -63deg);
     }
     #twelveth-line {
       left: 40%;
       height: 106px;
       width: 20px;
       top: 380px;
-      transform: skew(-21deg, -79deg);
+      -webkit-transform: skew(-21deg, -79deg);
+              transform: skew(-21deg, -79deg);
     }
   }
 
@@ -125,7 +137,8 @@
       height: 98px;
       top: 88px;
       width: 47px;
-      transform: skew(23deg, -62deg);
+      -webkit-transform: skew(23deg, -62deg);
+              transform: skew(23deg, -62deg);
     }
     .envelope-bottom {
       background: $envelope-color;
@@ -134,7 +147,8 @@
       height: 168px;
       top: 216px;
       width: 71px;
-      transform: skew(5deg, -29deg)
+      -webkit-transform: skew(5deg, -29deg);
+              transform: skew(5deg, -29deg)
     }
     .envelope-fill-middle {
       position: absolute;
@@ -217,77 +231,92 @@
     span {
       font-size: .4rem;
       position: absolute;
-      transform-origin: top center;
+      -webkit-transform-origin: top center;
+              transform-origin: top center;
     }
     .char1 {
       left: 51%;
       top: 2%;
-      transform: rotate(10deg);
+      -webkit-transform: rotate(10deg);
+              transform: rotate(10deg);
     }
     .char2 {
       left: 58%;
       top: 4%;
-      transform: rotate(16deg);
+      -webkit-transform: rotate(16deg);
+              transform: rotate(16deg);
     }
     .char3 {
       left: 71%;
       top: 10%;
-      transform: rotate(28deg);
+      -webkit-transform: rotate(28deg);
+              transform: rotate(28deg);
     }
     .char4 {
       left: 84%;
       top: 18%;
-      transform: rotate(42deg);
+      -webkit-transform: rotate(42deg);
+              transform: rotate(42deg);
     }
     .char5 {
       left: 94%;
       top: 36%;
-      transform: rotate(74deg);
+      -webkit-transform: rotate(74deg);
+              transform: rotate(74deg);
     }
     .char6 {
       left: 98%;
       top: 44%;
-      transform: rotate(84deg);
+      -webkit-transform: rotate(84deg);
+              transform: rotate(84deg);
     }
     .char7 {
       left: 96%;
       top: 53%;
-      transform: rotate(94deg);
+      -webkit-transform: rotate(94deg);
+              transform: rotate(94deg);
     }
     .char8 {
       left: 92%;
       top: 64%;
-      transform: rotate(114deg);
+      -webkit-transform: rotate(114deg);
+              transform: rotate(114deg);
     }
     .char9 {
       left: 92%;
       top: 68%;
-      transform: rotate(115deg);
+      -webkit-transform: rotate(115deg);
+              transform: rotate(115deg);
     }
     .char10 {
       left: 80%;
       top: 85%;
-      transform: rotate(142deg);
+      -webkit-transform: rotate(142deg);
+              transform: rotate(142deg);
     }
     .char11 {
       left: 71%;
       top: 90%;
-      transform: rotate(144deg);
+      -webkit-transform: rotate(144deg);
+              transform: rotate(144deg);
     }
     .date {
       top: 48%;
       left: 55%;
-      transform: rotate(90deg);
+      -webkit-transform: rotate(90deg);
+              transform: rotate(90deg);
     }
     .time {
       top: 52%;
       left: 23%;
-      transform: rotate(77deg);
+      -webkit-transform: rotate(77deg);
+              transform: rotate(77deg);
     }
     .zip {
       top: 52%;
       left: -3%;
-      transform: rotate(107deg);
+      -webkit-transform: rotate(107deg);
+              transform: rotate(107deg);
     }
   }
 
@@ -296,7 +325,8 @@
     left: 41%;
     top: 49%;
     width: 114px;
-    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
 
     h5 {
       color: #16166F;

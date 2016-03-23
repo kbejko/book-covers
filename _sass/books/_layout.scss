@@ -11,23 +11,27 @@
   left: 50%;
   position: absolute;
   top: 50%;
-  transform: translate(-50%, -50%) scale(.5);
+  -webkit-transform: translate(-50%, -50%) scale(.5);
+          transform: translate(-50%, -50%) scale(.5);
   width: $book-width;
 }
 
 @media screen and (min-width: 500px) {
   .book {
-    transform: translate(-50%, -50%) scale(1);
+    -webkit-transform: translate(-50%, -50%) scale(1);
+            transform: translate(-50%, -50%) scale(1);
   }
 }
 
 @media screen and (max-height: 650px) {
   .book {
-    transform: translate(-50%, -50%) scale(.7);
+    -webkit-transform: translate(-50%, -50%) scale(.7);
+            transform: translate(-50%, -50%) scale(.7);
   }
 }
 @media screen and (max-height: 450px) and (orientation: landscape) {
   .book {
-    transform: translate(-50%, -50%) scale(.5);
+    -webkit-transform: translate(-50%, -50%) scale(.5);
+            transform: translate(-50%, -50%) scale(.5);
   }
 }
